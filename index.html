@@ -15,9 +15,19 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="script.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
     </head>
+
     <body>
 
         <div class="site">
@@ -29,11 +39,12 @@
 	<ul class="menu">
 		<li><a href="/">about</a></li>
 		<li><a href="/resume/">resume</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
 	</ul>
 </div>
 
 
-          <div id="about" class="post">
+          <div id="about" class="container">
 
   <h2 class="text-center jz_color">About Mike</h2>
   <p>Hello this is Mike.  A finance manager turned into a C# developer after moving to Australia from Hong Kong in 2015.
@@ -54,15 +65,63 @@
   <h3>Key Technologies</h3>
   <ul>
     <li>C# / .Net Development</li>
+    <li>Entity Framework, AJAX, LINQ</li>
+    <li>Understanding of Database / Window Platform / XML / JSON</li>
     <li>Web front-end Development</li>
   </ul>
 
-    <h3>Timeline</h3>
+   <!--  <h3>Timeline</h3>
     
     <ul class="timeline">
       <li><span class="jz_btn jz_label_btn">Tencent</span> Work as an iOS developer</li>
       <li><span class="jz_btn jz_label_btn">klook</span> Develop <a href="https://itunes.apple.com/app/klook/id961850126?mt=8">Klook iOS App</a>, which is featured as "Best New Apps" by Apple. </li>
     </ul>
+ -->
+    
+
+     <section id="portfolio">
+    <div class="container text-center">
+      <h1 class="name">&lt;portfolio&gt;</h1>
+      <br/>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="http://res.cloudinary.com/dgzfvnwfz/image/upload/v1477433803/placeholder_1_pnutna.jpg" target="_blank">
+            <img src="http://res.cloudinary.com/dgzfvnwfz/image/upload/v1477433803/placeholder_1_pnutna.jpg" />
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="http://res.cloudinary.com/dgzfvnwfz/image/upload/v1477433803/placeholder_1_pnutna.jpg" target="_blank">
+            <img src="http://res.cloudinary.com/dgzfvnwfz/image/upload/v1477433803/placeholder_1_pnutna.jpg" />
+          </a>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="contact">
+    <h1 class="text-center name">&lt;contact&gt;<br/><small>Don't be a looky-loo...<em>communicate</em>!</small></h1>
+    <div id="form-container" class="center-block">
+
+      <form id="fr1">
+      <div class="form-group">
+        <input type="text" class="form-control input-lg" id="usr" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control input-lg" id="eml" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control input-lg" rows="5" id="msg" placeholder="Message"></textarea>
+      </div>
+      <input type="button" id="bt1" class="btn btn-primary btn-block" value="Send">
+      </form>
+
+    </div>
+  </section>
+
 
 
          <div class="footer">
@@ -82,12 +141,10 @@
   &nbsp;
   <span class="snow">·</span>
   &nbsp;
-  
- 
- 
+  <a href="http://codepen.io/mikechowdiv" title="codepen">Codepen</a>
+  &nbsp;
   <span class="snow">·</span>
   &nbsp;
-
   
 </div>
 
